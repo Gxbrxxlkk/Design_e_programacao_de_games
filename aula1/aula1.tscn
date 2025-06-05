@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://c61vg0cew6gog"]
+
+[ext_resource type="Texture2D" uid="uid://byah5rt24gh7p" path="res://nave.png" id="1_aelvy"]
+[ext_resource type="Script" uid="uid://cf8fv57grtwbd" path="res://nave.gd" id="2_h7a5n"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(137, 304)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("1_aelvy")
+script = ExtResource("2_h7a5n")
