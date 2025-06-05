@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://41csgrcg7fr"]
+
+[ext_resource type="Texture2D" uid="uid://07sl5mfkafs2" path="res://nave-removebg-preview.png" id="1_ltewx"]
+[ext_resource type="Script" uid="uid://b3tuwa662ghar" path="res://nave.gd" id="2_ilgfq"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(121, 318)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("1_ltewx")
+script = ExtResource("2_ilgfq")
